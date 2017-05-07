@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PaytmLabs</string>
+    <string name="spinner_prompt">Select Currency Base</string>
+    <string name="hint_enter_amount">Enter the amount</string>
+    <string name="button_retry">RETRY</string>
+    <string name="error_network">No Internet Connection</string>
+    <string name="toast_currency_updated">Currency Updated</string>
+</resources>

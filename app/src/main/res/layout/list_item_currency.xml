@@ -1,0 +1,38 @@
+<com.kayshin.paytmlabs.view.widget.SqaureCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardUseCompatPadding="true"
+    android:layout_centerHorizontal="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/btn_currency"
+    android:foreground="?attr/selectableItemBackground"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        >
+        <TextView
+            tools:text="CAD"
+            android:id="@+id/tvCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            tools:text="1.00000"
+            android:id="@+id/tvRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+</com.kayshin.paytmlabs.view.widget.SqaureCardView>
